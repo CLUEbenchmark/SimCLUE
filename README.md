@@ -1,4 +1,16 @@
+<!--
+ * @Author: CLUE
+ * @Date: 2021-12-02 05:15:14
+ * @LastEditTime: 2021-12-05 22:52:34
+ * @LastEditors: Xiang Pan
+ * @Description: 
+ * @FilePath: /SimCLUE/README.md
+ * @email: xiangpan@nyu.edu
+-->
 # SimCLUE
+
+You can get the english version of [README](README_EN.md).
+
 ### 目标
 提供一个大规模数据集，并使用对比学习、Prompt Learning与半监督学习等构建中文领域效果最好的预训练模型
 
