@@ -1,4 +1,4 @@
-# SimCLUE
+# SimCLUE：大规模中文语义理解数据集
 
 You can get the english version of [README](README_EN.md).
 
@@ -11,8 +11,8 @@ You can get the english version of [README](README_EN.md).
 整合了中文领域绝大多数可用的开源的语义相似度和自然语言推理的数据集，并重新做了数据拆分和整理。
 
 ##### 数据集与数据量
-    训练集（train_pair.json），句子对，用于分类或召回：      2,678,728
     训练集（train_rank.json），三列，可用于排序模型：        389,370
+    训练集（train_pair.json），句子对，用于分类或召回：      2,678,728
     验证集(dev.json)，用于验证：                           33,617
     测试集(test_public.json)，用于内部测试：                28,031
     语料库(corpus.json)，可用于无监督对比学习：              2,288,523
@@ -22,17 +22,18 @@ You can get the english version of [README](README_EN.md).
 
 ##### 示例数据集
 
-    示例（train_pair.json）：
-    {"sentence1": "化妆水什么牌子的比较好？", "sentence2": "什么牌子的化妆水比较好呢？", "label": "1"}
-    {"sentence1": "怀孕能吃圆葱吗", "sentence2": "怀孕能吃甲鱼吗", "label": "0"}
-    {"sentence1": "两个人穿着工作服，正看着墙上插着的一根管子。", "sentence2": "两个人看着一根管子。", "label": "1"}
-    
     示例（train_rank.json）：
     {"query": "胡子长得太快怎么办？", "title": "胡子长得快怎么办？", "neg_title": "怎样使胡子不浓密！"}
     {"query": "在香港哪里买手表好", "title": "香港买手表哪里好", "neg_title": "在杭州手机到哪里买"}
     {"query": "全职妈妈在家怎么赚钱？", "title": "全职妈妈在家上网做什么工作赚钱", "neg_title": "怎样在家挣钱？"}
     {"query": "她是一个非常慷慨的女人，拥有自己的一大笔财产。", "title": "她有很多钱，但她是个慷慨的女人。", "neg_title": "百万富翁是由一个女人经营的。"}
     {"query": "明天多少度啊", "title": "明天气温多少度啊", "neg_title": "沈阳多少度"}
+    
+    示例（train_pair.json）：
+    {"sentence1": "化妆水什么牌子的比较好？", "sentence2": "什么牌子的化妆水比较好呢？", "label": "1"}
+    {"sentence1": "怀孕能吃圆葱吗", "sentence2": "怀孕能吃甲鱼吗", "label": "0"}
+    {"sentence1": "两个人穿着工作服，正看着墙上插着的一根管子。", "sentence2": "两个人看着一根管子。", "label": "1"}
+    
     
     示例（dev/test.json）：
     {"sentence1": "我没整懂啊", "sentence2": "没整明白", "label": "1"}
@@ -104,6 +105,11 @@ SimCLUE有什么用？
 ### 需要做的工作：
 
 请报告你的实验效果，包括各种形式的无监督、半监督或业务学习上的效果对比，邮件到：CLUEbenchmark@163.com
+
+### 交流与合作
+     提交你的issue；加QQ群（群号:836811304）；或加入SimCLUE微信群：
+   <img src="https://github.com/CLUEbenchmark/SimCLUE/blob/main/resources/img/simcluegroup.jpeg"  width="50%" height="50%" /> 
+
 
 
 ### 相关参考或阅读：
