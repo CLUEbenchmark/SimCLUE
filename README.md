@@ -87,6 +87,20 @@ SimCLUE有什么用？
 
 排序场景：同一个语义检索场景，在召回基础上，进一步使用train_rank.json训练后，再使用业务排序数据训练模型，效果进一步提升2个点（92%--->94%）
 
+### 整合的数据集列表
+
+- <a href='http://icrc.hitsz.edu.cn/Article/show/171.html'>哈工大 LCQMC 数据集</a>
+- <a href='https://tianchi.aliyun.com/dataset/dataDetail?dataId=106411'>AFQMC 蚂蚁金融语义相似度数据集</a>
+- <a href='https://tianchi.aliyun.com/competition/entrance/531851/introduction'>OPPO 小布对话文本语义匹配数据集</a>
+- <a href='https://github.com/pkucoli/PKU-Paraphrase-Bank/'>北大中文文本复述数据集 PKU-Paraphrase-Bank</a>
+- <a href='https://github.com/pluto-junzeng/CNSD'>Chinese-STS-B 数据集</a>
+- <a href='https://github.com/CLUEbenchmark/CLUE'>Chinese-MNLI 自然语言推理数据集</a>
+- <a href='https://gitee.com/jiaodaxin/CNSD'>Chinese-SNLI 自然语言推理数据集</a>
+- <a href='https://github.com/CLUEbenchmark/OCNLI'>OCNLI 中文原版自然语言推理数据集</a>
+- <a href='https://www.heywhale.com/mw/dataset/608a8c45d0bc41001722dc37/content'>CINLID 中文成语语义推理数据集</a>
+
+整合了以上9个数据集，如有引用请见源数据集地址；这些项目的示例的介绍也可以参考<a href='https://github.com/zejunwang1/CSTS'>CSTS</a>
+
 ### 需要做的工作：
 
 请报告你的实验效果，包括各种形式的无监督、半监督或业务学习上的效果对比，邮件到：CLUEbenchmark@163.com
