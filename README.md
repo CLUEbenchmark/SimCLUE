@@ -89,15 +89,15 @@ SimCLUE有什么用？
 
 ### 整合的数据集列表
 
-- <a href='http://icrc.hitsz.edu.cn/Article/show/171.html'>哈工大 LCQMC 数据集</a>
-- <a href='https://tianchi.aliyun.com/dataset/dataDetail?dataId=106411'>AFQMC 蚂蚁金融语义相似度数据集</a>
-- <a href='https://tianchi.aliyun.com/competition/entrance/531851/introduction'>OPPO 小布对话文本语义匹配数据集</a>
-- <a href='https://github.com/pkucoli/PKU-Paraphrase-Bank/'>北大中文文本复述数据集 PKU-Paraphrase-Bank</a>
-- <a href='https://github.com/pluto-junzeng/CNSD'>Chinese-STS-B 数据集</a>
-- <a href='https://github.com/CLUEbenchmark/CLUE'>Chinese-MNLI 自然语言推理数据集</a>
-- <a href='https://gitee.com/jiaodaxin/CNSD'>Chinese-SNLI 自然语言推理数据集</a>
-- <a href='https://github.com/CLUEbenchmark/OCNLI'>OCNLI 中文原版自然语言推理数据集</a>
-- <a href='https://www.heywhale.com/mw/dataset/608a8c45d0bc41001722dc37/content'>CINLID 中文成语语义推理数据集</a>
+- <a href='http://icrc.hitsz.edu.cn/Article/show/171.html' target="_blank">哈工大 LCQMC 数据集</a>
+- <a href='https://tianchi.aliyun.com/dataset/dataDetail?dataId=106411' target="_blank">AFQMC 蚂蚁金融语义相似度数据集</a>
+- <a href='https://tianchi.aliyun.com/competition/entrance/531851/introduction' target="_blank">OPPO 小布对话文本语义匹配数据集</a>
+- <a href='https://github.com/pkucoli/PKU-Paraphrase-Bank/' target="_blank">北大中文文本复述数据集 PKU-Paraphrase-Bank</a>
+- <a href='https://github.com/pluto-junzeng/CNSD' target="_blank">Chinese-STS-B 数据集</a>
+- <a href='https://github.com/CLUEbenchmark/CLUE' target="_blank">Chinese-MNLI 自然语言推理数据集</a>
+- <a href='https://gitee.com/jiaodaxin/CNSD' target="_blank">Chinese-SNLI 自然语言推理数据集</a>
+- <a href='https://github.com/CLUEbenchmark/OCNLI' target="_blank">OCNLI 中文原版自然语言推理数据集</a>
+- <a href='https://www.heywhale.com/mw/dataset/608a8c45d0bc41001722dc37/content' target="_blank">CINLID 中文成语语义推理数据集</a>
 
 整合了以上9个数据集，如有引用请见源数据集地址；这些项目的示例的介绍也可以参考<a href='https://github.com/zejunwang1/CSTS'>CSTS</a>
 
