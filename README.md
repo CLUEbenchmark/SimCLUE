@@ -2,11 +2,9 @@
 
 You can get the english version of [README](README_EN.md).
 
-### 目标
+### 简介
 提供一个大规模语义数据集；可用于语义理解、语义相似度、召回与排序等检索场景等；作为通用语义数据集，用于训练中文领域基础语义模型。
 可用于无监督对比学习、半监督学习、Prompt Learning等构建中文领域效果最好的预训练模型。
-
-### SimCLUE数据集介绍
 
 整合了中文领域绝大多数可用的开源的语义相似度和自然语言推理的数据集，并重新做了数据拆分和整理。
 
@@ -108,8 +106,9 @@ SimCLUE有什么用？
 
 ### 交流与合作
      提交你的issue；加QQ群（群号:836811304）；或加入SimCLUE微信群：
-   <img src="https://github.com/CLUEbenchmark/SimCLUE/blob/main/resources/img/simcluegroup.jpeg"  width="50%" height="50%" /> 
+   <img src="https://github.com/CLUEbenchmark/SimCLUE/blob/main/resources/img/simcluegroup.jpeg"  width="40%" height="40%" /> 
 
+   <img src="https://github.com/CLUEbenchmark/SimCLUE/blob/main/resources/img/brightmart.jpeg"  width="40%" height="40%" /> 
 
 
 ### 相关参考或阅读：
