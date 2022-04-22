@@ -1,4 +1,4 @@
-# SimCLUE：大规模中文语义理解数据集
+# SimCLUE：大规模中文语义理解与匹配数据集
 
 You can get the english version of [README](README_EN.md).
 
