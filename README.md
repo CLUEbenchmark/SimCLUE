@@ -25,7 +25,7 @@ You can get the english version of [README](README_EN.md).
     {"query": "在香港哪里买手表好", "title": "香港买手表哪里好", "neg_title": "在杭州手机到哪里买"}
     {"query": "全职妈妈在家怎么赚钱？", "title": "全职妈妈在家上网做什么工作赚钱", "neg_title": "怎样在家挣钱？"}
     {"query": "她是一个非常慷慨的女人，拥有自己的一大笔财产。", "title": "她有很多钱，但她是个慷慨的女人。",
-        "neg_title": "百万富翁是由一个女人经营的。"}
+                                                         "neg_title": "百万富翁是由一个女人经营的。"}
     {"query": "明天多少度啊", "title": "明天气温多少度啊", "neg_title": "沈阳多少度"}
     
     示例（train_pair.json）：
